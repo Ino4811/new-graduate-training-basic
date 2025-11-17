@@ -9,4 +9,4 @@ RUN go mod download
 
 COPY . .
 
-CMD ["air", "main.go"]
+CMD ["air", "cmd/server/main.go"]

@@ -12,7 +12,7 @@ services:
       - go-build-cache:/root/.cache/go-build
     ports:
       - "8080:8080"
-    command: ["air", "main.go"]
+    command: ["air", "cmd/server/main.go"]
 
   frontend:
     build:
